@@ -1,0 +1,20 @@
+.title {
+    text-align: center;
+    background-color: lightgreen;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.content {
+    background-color: lightblue;
+
+}
+.content table {
+    text-align: center;
+    width: 100%;
+    border: 1px solid black;
+}
+.content td {
+    border-top: 1px solid hotpink;
+}
