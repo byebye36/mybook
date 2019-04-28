@@ -13,7 +13,7 @@
         书名: <input type="text" name="name" id="" value="{{name}}"><br>
         作者:<input type="text" name="author" id=""value="{{author}}"><br>
         分类:<input type="text" name="category" id=""value="{{category}}"><br>
-       描述: <input type="text" name="desc" id=""value="{{description}}"><br>
+       描述: <input type="text" name="description" id=""value="{{description}}"><br>
         <input type="submit" value="修改">
     </form>
 </body>
