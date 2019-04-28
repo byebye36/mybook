@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>修改图书t</title>
+</head>
+<body>
+    <h3>修改图书</h3>
+    <form action="/editBook" method="post">
+        <input type="hidden" name="id" value="{{id}}">
+        书名: <input type="text" name="name" id="" value="{{name}}"><br>
+        作者:<input type="text" name="author" id=""value="{{author}}"><br>
+        分类:<input type="text" name="category" id=""value="{{category}}"><br>
+       描述: <input type="text" name="desc" id=""value="{{description}}"><br>
+        <input type="submit" value="修改">
+    </form>
+</body>
+</html>
